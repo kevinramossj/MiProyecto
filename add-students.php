@@ -103,7 +103,7 @@ else if($error){?>
 </div>
 
 <div class="form-group col-md-6">
-<label for="default" class="control-label">Numero de Carnet</label>
+<label for="default" class="control-label">Número de carnet</label>
 <input type="text" name="rollid" class="form-control" id="rollid" maxlength="10" required="required" autocomplete="off">
 
 </div>
@@ -115,8 +115,8 @@ else if($error){?>
 </div>
 
 <div class="form-group col-md-6">
-                                                       <label for="default" class="control-label">Gerencia </label>
-														<select name="Gender" class="form-control" id="default" required="required">
+                                                       <label for="default" class="control-label">Gerencia</label>
+                                                       						<select name="Gender" class="form-control" id="default" required="required">
 <option value="">Seleccione Gerencia</option>
 <option value="Ait">Ait</option>
 <option value="Salud">Salud</option>
@@ -140,7 +140,7 @@ else if($error){?>
  </select>
                                                     </div>
 <div class="form-group col-md-6">
-<label for="default" class="control-label">Equipos Asignar</label>             
+<label for="default" class="control-label">Equipo a asignar</label>             
  <select name="class" class="form-control" id="default" required="required">
 <option value="">Seleccione el Equipo</option>
 <?php $sql = "SELECT * from tblclasses";

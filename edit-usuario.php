@@ -108,7 +108,7 @@ foreach($results as $result)
 														</div>
 													</div>
 													   <div class="form-group has-success">
-														<label for="success" class="control-label">&nbsp;Cedula</label>
+                                                        <label for="success" class="control-label">&nbsp;Cédula</label>
 														<div class="">
 															<input type="text" name="cedula" value="<?php echo htmlentities($result->cedula);?>" required="required" class="form-control" id="success">
 															<span class="help-block"></span>

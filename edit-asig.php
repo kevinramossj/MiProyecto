@@ -104,7 +104,7 @@ foreach($results as $result)
                                                         </div>
                                                     </div>
  <div class="form-group">
-                                                        <label for="default" class="col-sm-2 control-label">usuario Asignado</label>
+                                                        <label for="default" class="col-sm-2 control-label">Usuario Asignado</label>
                                                         <div class="col-sm-10">
 <input type="text" name="usuario" class="form-control" id="classname" value="<?php echo htmlentities($result->nombres)?>(<?php echo htmlentities($result->Section)?>)" >
                                                         </div>

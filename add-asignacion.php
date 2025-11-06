@@ -122,7 +122,7 @@ else if($error){?>
 </div>
 
 <div class="form-group col-md-6">
-<label for="default" class="control-label">Numero de Control </label>
+<label for="default" class="control-label">Número de Control</label>
 <input type="text" name="number" value='<?php echo generate_string();?>' readonly class="form-control" ">
 
 </div>
@@ -156,7 +156,7 @@ foreach($results as $result)
  </select>
                                                     </div>                                               
 <div class="form-group col-md-6">
-<label for="default" class="control-label">Usuario por Asignar </label>             
+<label for="default" class="control-label">Usuario por Asignar</label>             
  <select name="usuario" class="form-control" id="default" required="required">
 <option value="">Seleccione el Usuario</option>
 <?php $sql = "SELECT * from tblusuarios";

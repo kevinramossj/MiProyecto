@@ -125,7 +125,7 @@ else if($error){?>
 <option value="">Seleccione Estatus del Equipo </option>
 <option value="Nuevo">Nuevo </option>
 <option value="Asignado">Asignado</option>
-<option value="En Deposito">En Deposito</option>
+<option value="En Deposito">En Depósito</option>
 
  </select>
                                                     </div>
@@ -148,7 +148,7 @@ else if($error){?>
  <input type="text" name="marca" class="form-control" id="default" placeholder="Ingrese los datos" required="required">
                                                     </div>
 														<div class="form-group">
-                                                        <label for="default" class="control-label">Dirección IP O MAC</label>
+                                                        <label for="default" class="control-label">Dirección IP o MAC</label>
  <input type="text" name="ip_mac" class="form-control" id="default" placeholder="Ingrese los datos" required="required">
                                                     </div>
 	<div class="form-group">
@@ -157,10 +157,10 @@ else if($error){?>
 														<select name="ubicacion" class="form-control" id="default" required="required">
 <option value="">Seleccione Ubicación</option>
 <option value="Asignado">Asignado</option>
-<option value="Deposito División Junin">Deposito División Junin</option>
-<option value="Deposito Petro SanFelix">Deposito Petro SanFelix</option>
-<option value="Deposito Petrocedeno">Deposito Petrocedeño</option>
-<option value="Deposito IndoVenezolana">Deposito IndoVenezolana</option>
+<option value="Deposito División Junin">Depósito División Junín</option>
+<option value="Deposito Petro SanFelix">Depósito Petro San Félix</option>
+<option value="Deposito Petrocedeno">Depósito Petrocedeño</option>
+<option value="Deposito IndoVenezolana">Depósito IndoVenezolana</option>
 
  </select>
                                                     </div>

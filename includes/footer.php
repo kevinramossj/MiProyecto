@@ -1,4 +1,4 @@
-  </div>
+</div>
        
         <!-- ========== COMMON JS FILES ========== -->
         <script src="assets/js/jquery/jquery-2.2.4.min.js"></script>
@@ -66,6 +66,23 @@
         <script src="assets/js/task-list.js"></script>
          <script>
             $(function($) {
+                // Configuración global de idioma para DataTables en español
+                $.extend(true, $.fn.dataTable.defaults, {
+                    language: {
+                        lengthMenu: "Mostrar _MENU_ registros",
+                        info: "Mostrando _START_ a _END_ de _TOTAL_ registros",
+                        infoEmpty: "Mostrando 0 a 0 de 0 registros",
+                        infoFiltered: "(filtrado de _MAX_ registros totales)",
+                        zeroRecords: "No se encontraron registros",
+                        search: "Buscar:",
+                        paginate: {
+                            first: "Primero",
+                            last: "Último",
+                            next: "Siguiente",
+                            previous: "Anterior"
+                        }
+                    }
+                });
                 $('#example').DataTable();
 
                 $('#example2').DataTable( {
@@ -119,32 +136,6 @@
                 });
             });
         </script>
-        <script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'es'}, 'google_translate_element');
-}
-</script>
-
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-<style>
-       .goog-logo-link {
-    display:none !important;
-} 
-    
-.goog-te-gadget{
-    color: transparent;
-}
-.goog-te-gadget .goog-te-combo {
-    margin: 0px 0;
-        padding: 8px;
-            color: #000;
-}
-#google_translate_element{
-        padding-top: 11px;
-        color: #000;
-        position: absolute;
-    right: 20px;
-}
-</style>
+        
     </body>
 </html>

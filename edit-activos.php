@@ -101,13 +101,13 @@ $msg="Datos Actualizados";
 											</div>
 <?php if($msg){?>
 <div class="alert alert-success left-icon-alert" role="alert">
- <strong>Exitoso!</strong><?php echo htmlentities($msg); ?>
+ <strong>¡Exitoso!</strong><?php echo htmlentities($msg); ?>
  </div><?php } 
 else if($error){?>
-	<div class="alert alert-danger left-icon-alert" role="alert">
-											<strong>Error!</strong> <?php echo htmlentities($error); ?>
-										</div>
-										<?php } ?>
+    <div class="alert alert-danger left-icon-alert" role="alert">
+                                            <strong>¡Error!</strong> <?php echo htmlentities($error); ?>
+                                        </div>
+                                        <?php } ?>
 
 												<form method="post">
 <?php 
@@ -158,7 +158,7 @@ foreach($results as $result)
 														</div>
 													</div>
 													    <div class="form-group has-success">
-														<label for="success" class="control-label">&nbsp;	Modelo</label>
+                                                        <label for="success" class="control-label">&nbsp;Modelo</label>
 														<div class="">
 															<input type="text" name="modelo" value="<?php echo htmlentities($result->modelo);?>" class="form-control" required="required" id="success">
 															<span class="help-block"></span>
@@ -172,7 +172,7 @@ foreach($results as $result)
 														</div>
 													</div>
 													    <div class="form-group has-success">
-														<label for="success" class="control-label">&nbsp;Direción IP ó MAC</label>
+                                                        <label for="success" class="control-label">&nbsp;Dirección IP o MAC</label>
 														<div class="">
 															<input type="text" name="ip_mac" value="<?php echo htmlentities($result->ip_mac);?>" class="form-control" required="required" id="success">
 															<span class="help-block"></span>

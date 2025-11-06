@@ -127,13 +127,13 @@ foreach($results as $result)
 </div>
 
                                                     <div class="form-group">
-                                                        <label for="default" class="col-sm-2 control-label">Equipo  Asignado</label>
+                                                        <label for="default" class="col-sm-2 control-label">Equipo Asignado</label>
                                                         <div class="col-sm-10">
 <input type="text" name="equipo" class="form-control" id="classname" value="<?php echo htmlentities($result->descrip)?>(<?php echo htmlentities($result->etiqueta)?>)" readonly>
                                                         </div>
                                                     </div>
    <div class="form-group">
-                                                        <label for="default" class="col-sm-2 control-label">Usuario  Asignado</label>
+                                                        <label for="default" class="col-sm-2 control-label">Usuario Asignado</label>
                                                         <div class="col-sm-10">
 <input type="text" name="usuario" class="form-control" id="classname" value="<?php echo htmlentities($result->nombres)?>(<?php echo htmlentities($result->indicador)?>)" readonly>
                                                         </div>

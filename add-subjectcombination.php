@@ -89,7 +89,7 @@ else if($error){?>
                                         <?php } ?>
                                                 <form class="" method="post">
                                                     <div class="form-group">
-                                                        <label for="default" class="control-label">Class</label>
+                                                        <label for="default" class="control-label">Clase</label>
  <select name="class" class="form-control" id="default" required="required">
 <option value="">Seleccione la clase</option>
 <?php $sql = "SELECT * from tblclasses";
@@ -105,7 +105,7 @@ foreach($results as $result)
  </select>
                                                     </div>
 <div class="form-group">
-                                                        <label for="default" class="control-label">Subject</label>
+                                                        <label for="default" class="control-label">Asignatura</label>
  <select name="subject" class="form-control" id="default" required="required">
 <option value="">Seleccione la asignatura</option>
 <?php $sql = "SELECT * from tblsubjects";

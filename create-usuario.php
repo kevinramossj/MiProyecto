@@ -95,7 +95,7 @@ else if($error){?>
  <input type="text" name="nombres" class="form-control" id="default" placeholder="Ingrese los datos" required="required">
                                                     </div>
 <div class="form-group">
-                                                        <label for="default" class="control-label">Dni</label>
+<label for="default" class="control-label">DNI</label>
  <input type="text" name="cedula" class="form-control" id="default" placeholder="Dni de Identidad" required="required">
                                                     </div>
                                                     

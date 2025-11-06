@@ -71,17 +71,14 @@
                 			</ul>
                             <!-- /.nav navbar-nav -->
      
-                			<ul class="nav navbar-nav navbar-right" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
+                            <ul class="nav navbar-nav navbar-right" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
                                
-                             <li><div id="google_translate_element"></div>
-                             </li>
-                				
-                				    <li>
+                 			    <li>
                                     <a href="logout.php" class="color-danger text-center"><i class="fa fa-sign-out"></i> Salir</a></li>
-                					
-                		
+                                            
+                
                             
-                			</ul>
+                            </ul>
                             <!-- /.nav navbar-nav navbar-right -->
                 		</div>
                 		<!-- /.navbar-collapse -->

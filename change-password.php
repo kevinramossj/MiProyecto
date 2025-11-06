@@ -117,7 +117,7 @@ else if($error){?>
                                                         </div>
                                                     </div>
                                                      <div class="form-group has-success">
-                                                        <label for="success" class="control-label">Confirme Contraseña</label>
+                                                        <label for="success" class="control-label">Confirmar Contraseña</label>
                                                         <div class="">
                                                             <input type="password" name="confirmpassword" class="form-control" required="required" id="success">
                                                         </div>

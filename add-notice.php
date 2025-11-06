@@ -40,7 +40,7 @@ echo '<script>alert("Something went wrong. Please try again.")</script>';
                         <div class="container-fluid">
                             <div class="row page-title-div">
                                 <div class="col-md-6">
-                                    <h2 class="title">Add Notice</h2>
+                                    <h2 class="title">Agregar Aviso</h2>
                                 </div>
                                 
                             </div>
@@ -48,10 +48,10 @@ echo '<script>alert("Something went wrong. Please try again.")</script>';
                             <div class="row breadcrumb-div">
                                 <div class="col-md-6">
                                     <ul class="breadcrumb">
-            							<li><a href="dashboard.php"><i class="fa fa-home"></i> Home</a></li>
-            							<li><a href="#">Notices</a></li>
-            							<li class="active">Add Notice</li>
-            						</ul>
+            						<li><a href="dashboard.php"><i class="fa fa-home"></i> Inicio</a></li>
+            						<li><a href="#">Avisos</a></li>
+            						<li class="active">Agregar Aviso</li>
+            					</ul>
                                 </div>
                                
                             </div>
@@ -71,7 +71,7 @@ echo '<script>alert("Something went wrong. Please try again.")</script>';
                                         <div class="panel">
                                             <div class="panel-heading">
                                                 <div class="panel-title">
-                                                    <h5>Add Notice</h5>
+                                                    <h5>Agregar Aviso</h5>
                                                 </div>
                                             </div>
   
@@ -79,13 +79,13 @@ echo '<script>alert("Something went wrong. Please try again.")</script>';
 
                                                 <form method="post">
                                                     <div class="form-group has-success">
-                                                        <label for="success" class="control-label">Notice Title</label>
+                                                        <label for="success" class="control-label">Título del Aviso</label>
                                                 		<div class="">
                                                 			<input type="text" name="noticetitle" class="form-control" required="required" id="noticetitle">
                                                 		</div>
                                                 	</div>
                                                        <div class="form-group has-success">
-                                                        <label for="success" class="control-label">Notice Details</label>
+                                                        <label for="success" class="control-label">Detalles del Aviso</label>
                                                         <div class="">
                                                   <textarea class="form-control" name="noticedetails" required rows="5"></textarea>
                                                         </div>
@@ -94,7 +94,7 @@ echo '<script>alert("Something went wrong. Please try again.")</script>';
   <div class="form-group has-success">
 
                                                         <div class="">
-                                                           <button type="submit" name="submit" class="btn btn-success">Submit</button>
+                                                           <button type="submit" name="submit" class="btn btn-success">Guardar</button>
                                                     </div>
 
 

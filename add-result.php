@@ -106,7 +106,7 @@ var abh=clid+'$'+val;
                      <div class="container-fluid">
                             <div class="row page-title-div">
                                 <div class="col-md-6">
-                                    <h2 class="title">Declare Result</h2>
+                                    <h2 class="title">Registrar Resultado</h2>
                                 
                                 </div>
                                 
@@ -116,9 +116,9 @@ var abh=clid+'$'+val;
                             <div class="row breadcrumb-div">
                                 <div class="col-md-6">
                                     <ul class="breadcrumb">
-                                        <li><a href="dashboard.php"><i class="fa fa-home"></i> Home</a></li>
+                                        <li><a href="dashboard.php"><i class="fa fa-home"></i> Inicio</a></li>
                                 
-                                        <li class="active">Student Result</li>
+                                        <li class="active">Resultado del Estudiante</li>
                                     </ul>
                                 </div>
                              
@@ -145,9 +145,9 @@ else if($error){?>
                                                 <form class="" method="post">
 
  <div class="form-group">
-<label for="default" class="control-label">Class</label>
+<label for="default" class="control-label">Clase</label>
  <select name="class" class="form-control clid" id="classid" onChange="getStudent(this.value);" required="required">
-<option value="">Select Class</option>
+<option value="">Seleccione una clase</option>
 <?php $sql = "SELECT * from tblclasses";
 $query = $dbh->prepare($sql);
 $query->execute();
@@ -161,7 +161,7 @@ foreach($results as $result)
  </select>
                                                     </div>
 <div class="form-group">
-                                                        <label for="date" class=" control-label ">Student Name</label>
+                                                        <label for="date" class=" control-label ">Nombre del Estudiante</label>
                                                     <select name="studentid" class="form-control stid" id="studentid" required="required" onChange="getresult(this.value);">
                                                     </select>
                                                     </div>
@@ -173,7 +173,7 @@ foreach($results as $result)
                                                     </div>
                                                     
 <div class="form-group">
-                                                        <label for="date" class="control-label">Subjects</label>
+                                                        <label for="date" class="control-label">Asignaturas</label>
                                                     <div  id="subject">
                                                     </div>
                                                     </div>
@@ -181,7 +181,7 @@ foreach($results as $result)
 
                                                     
                                                     <div class="form-group">
-                                                            <button type="submit" name="submit" id="submit" class="btn btn-success">Declare Result</button>
+                                                            <button type="submit" name="submit" id="submit" class="btn btn-success">Registrar Resultado</button>
                                                 
                                                     </div>
                                                 </form>

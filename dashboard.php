@@ -95,14 +95,14 @@ $totalclasses=$query2->rowCount();
 										
 										
 										
-										<?php 
-$sql2 ="SELECT id from  tblactivos ";
-$query2 = $dbh -> prepare($sql2);
-$query2->execute();
-$results2=$query2->fetchAll(PDO::FETCH_OBJ);
-$totalclasses=$query2->rowCount();
+											<?php 
+$sqlUsuarios ="SELECT id FROM tblusuarios";
+$queryUsuarios = $dbh -> prepare($sqlUsuarios);
+$queryUsuarios->execute();
+$resultsUsuarios=$queryUsuarios->fetchAll(PDO::FETCH_OBJ);
+$totalUsuarios=$queryUsuarios->rowCount();
 ?><span class="bg-icon"><i class="fa fa-users"></i></span>
-                                            <span class="number counter"><?php echo htmlentities($totalclasses);?></span>
+                                            <span class="number counter"><?php echo htmlentities($totalUsuarios);?></span>
                                             <span class="name">Usuarios Registrados </span>
                                             
                                         </a>
